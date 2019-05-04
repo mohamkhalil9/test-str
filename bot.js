@@ -14,7 +14,7 @@ client.on('message', message => {
   if (message.author.id !== "415142691282616330") return;
 
   
-  if (message.content.startsWith(prefix + 'Wat')) {
+  if (message.content.startsWith(prefix + 'wat')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
       message.channel.send(`**Status You ${argresult} **`)
