@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "415142691282616330") return;
+  if (message.author.id !== "444596274189172758") return;
 
   
   if (message.content.startsWith(prefix + 'wat')) {
